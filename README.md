@@ -68,3 +68,13 @@ To execute the app we must use:
 ```
 python -m app.main
 ```
+
+# Releases
+
+## Get release data
+
+To get one release by id:
+
+```
+https://citnet.tech.ec.europa.eu/CITnet/jira/rest/api/2/version/389637
+```

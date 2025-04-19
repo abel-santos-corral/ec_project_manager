@@ -21,7 +21,8 @@ class JsonProjectRepository(ProjectRepository):
                     'project_name': item['Project name'],
                     'project_initials': item['Project initials'],
                     'project_full_name': item['Project full name'],
-                    'component_prefix': item['Component prefix']
+                    'component_prefix': item['Component prefix'],
+                    'project_id': item['Project id']
                 })
                 self.projects[project.project_key] = project
 
