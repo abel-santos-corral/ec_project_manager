@@ -16,7 +16,7 @@ class FolderConfig:
     the folders exist on the system. Provides an easy way to access folder paths 
     by key.
     """
-    def __init__(self, config_path='data/config/config.yaml'):
+    def __init__(self, config_path='app/data/config/config.yaml'):
         """
         Initializes the FolderConfig class by reading the configuration from 
         the specified YAML file, creating any necessary folders, and storing 
