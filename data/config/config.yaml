@@ -1,0 +1,6 @@
+folders:
+  input: "./data/input"
+  output: "./data/output"
+  storage: "./data/storage"
+  persistence: "./data/persistence"
+  config: "./config"
