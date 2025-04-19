@@ -35,6 +35,9 @@ class JsonProjectRepository(ProjectRepository):
     def get_by_key(self, project_key: str) -> Optional[Project]:
         return self.projects.get(project_key)
 
+    def get_by_id(self, project_id: str) -> Optional[Project]:
+        return self.projects.get(project_id)
+
     def get_project_mapping(self) -> dict:
         return {
             project.project_key: project.component_prefix

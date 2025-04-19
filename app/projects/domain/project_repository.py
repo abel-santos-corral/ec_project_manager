@@ -12,5 +12,9 @@ class ProjectRepository(ABC):
         pass
 
     @abstractmethod
+    def get_by_id(self, project_id: str) -> Optional[Project]:
+        pass
+
+    @abstractmethod
     def get_project_mapping(self) -> dict:
         pass

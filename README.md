@@ -53,9 +53,15 @@ In this case, it's not necessary, but we leave it commented to reuse in other pr
 pip install -r requerimientos.txt
 ```
 
+To run testing on local, then install:
+
+```
+pip install -r requerimientos-dev.txt
+```
+
 ### Setup configuration
 
-For this execute:
+To install your package in editable mode, which adds it to the Python path, run:
 
 ```
 pip install -e .
@@ -78,3 +84,27 @@ To get one release by id:
 ```
 https://citnet.tech.ec.europa.eu/CITnet/jira/rest/api/2/version/389637
 ```
+
+# Testing
+
+For testing we must install pytest:
+
+```
+pip install pytest
+```
+
+And to run tests:
+
+```
+pytest
+```
+
+To test for features:
+
+> Tests of projects
+> 
+> ```pytest tests/app/projects```
+> 
+
+
+

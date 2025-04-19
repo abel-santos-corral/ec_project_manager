@@ -1,0 +1,4 @@
+-r requerimientos.txt
+dotenv
+pytest
+pytest-cov
